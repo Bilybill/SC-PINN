@@ -1,0 +1,34 @@
+{
+    "Expname":"ExpSCPINNLinearInit",
+    "basefilename":"SmallMarm",
+
+    "oz":0,
+    "dz":0.048,
+    "nz":63,
+    "o_cmp":0,
+    "d_cmp":0.05,
+    "ncmp":184,
+
+    "GPUIDs": [2],
+    "subsrcsample":1,
+    "srz": 0.012,
+    "velmin":1.50,
+    "velmax":5.61,
+
+    "DVGModelPath": "/home/wyh/Project/PINNTomo/result/DVGmodeldict/ModelV2/latest_net_G.pth",
+    "epoch_count": 0,
+    "epochs": 400,
+    "crop_size": 128,
+    "trainsrcsamplenum":15,
+    "valinterval":20,
+    "velLossceoff":0,
+    "masklosscoeff":1,
+    "continueTrainModelPath": "None",
+    "continueTrain": false,
+    "DIPconstrain": true,
+    "DIPconstraincoeff": 0.01,
+    "TVcoeff": 0.1,
+    "data_coeff":100,
+    "pde_coeff":10,
+    "lr":1e-2
+}

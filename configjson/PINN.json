@@ -1,0 +1,28 @@
+{
+    "Expname": "ExpORIPINN",
+    "basefilename": "SmallMarm",
+    "oz": 0,
+    "dz": 0.048,
+    "nz": 63,
+    "o_cmp": 0,
+    "d_cmp": 0.05,
+    "ncmp": 184,
+    "GPUIDs": [
+        5
+    ],
+    "subsrcsample": 1,
+    "srz": 0.012,
+    "velmin": 1.50,
+    "velmax": 5.61,
+
+    "epoch_count": 0,
+    "epochs": 400,
+    "batchsize": 60000,
+    "valinterval": 20,
+    "velLossceoff": 50,
+    "continueTrainModelPath": "",
+    "continueTrain": false,
+    "data_coeff": 100,
+    "pde_coeff": 1,
+    "lr": 0.5e-3
+}

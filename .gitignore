@@ -1,0 +1,6 @@
+DATA_FOLDER
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+result
