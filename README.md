@@ -49,7 +49,9 @@ The project is implemented in Python. We recommend using a virtual environment (
 ## Usage
 
 ### 1. Data Preparation
-Ensure your dataset files (initial velocity, true velocity, traveltime tables, seismic profiles) are placed in the `DATA_FOLDER/` or specified paths in the run scripts. 
+The dataset required to reproduce the results in this project is available on Zenodo: [https://doi.org/10.5281/zenodo.18463841](https://doi.org/10.5281/zenodo.18463841).
+
+Please download and extract the data, then ensure your dataset files (initial velocity, true velocity, traveltime tables, seismic profiles) are placed in the `DATA_FOLDER/` or specified paths in the run scripts. 
 *   `.rsf` (Madagascar) and `.npy` formats are supported.
 
 ### 2. Configuration
