@@ -1,5 +1,5 @@
 {
-    "Expname":"ExpSCPINNLinearInit",
+    "Expname":"ExpSCPINNLinearInitWoDVG",
     "basefilename":"SmallMarm",
 
     "oz":0,
@@ -15,7 +15,7 @@
     "velmin":1.50,
     "velmax":5.61,
 
-    "DVGModelPath": "/home/wyh/Project/PINNTomo/result/DVGmodeldict/ModelV2/latest_net_G.pth",
+    "DVGModelPath": "",
     "epoch_count": 0,
     "epochs": 400,
     "crop_size": 128,

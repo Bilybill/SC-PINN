@@ -11,12 +11,7 @@ Seismic tomography is a critical method for imaging the Earth's subsurface struc
 
 This approach demonstrates superior performance in resolving complex velocity variations and is validated on both synthetic datasets (e.g., Marmousi model) and field data (Viking Graben).
 
-## Authors
-
-*   **Yonghao Wang** - *School of Artificial Intelligence and Robotics, Hunan University*
-*   **Zhuo Jia** - *Department of Automation, Tsinghua University*
-*   **Bowu Jiang** - *College of Mechanical and Electrical Engineering, Beijing University of Chemical Technology*
-*   **Wenkai Lu** (Corresponding Author) - *Department of Automation, Tsinghua University*
+![SC-PINN Framework](Myapproach.jpg)
 
 ## Project Structure
 

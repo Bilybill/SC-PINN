@@ -295,7 +295,7 @@ if __name__ == '__main__':
 
     current_state_dict = tomo_model.state_dict()
 
-    DVGmodel_dict = torch.load(DVGModelPath)
+    DVGmodel_dict = torch.load(DVGModelPath) if os.path.isfile(DVGModelPath) else {}
 
     for key in DVGmodel_dict.keys():
         if len(GPUIDS) > 1:
