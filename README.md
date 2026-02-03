@@ -1,6 +1,6 @@
 # Space Correlation Constrained Physics Informed Neural Network (SC-PINN) for Seismic Tomography
 
-This repository contains the source code for the paper **"Space Correlation Constrained Physics Informed Neural Network for Seismic Tomography"**, submitted to *JGR: Machine Learning and Computation*.
+This repository contains the source code for the paper **"Space Correlation Constrained Physics Informed Neural Network for Seismic Tomography"**, accepted by *JGR: Machine Learning and Computation* on January 30, 2026.
 
 ## Overview
 
@@ -90,12 +90,12 @@ These scripts will automatically:
 If you use this code or find it useful in your research, please cite our paper:
 
 ```bibtex
-@article{wang2024scpinn,
+@article{wang2026scpinn,
   title={Space Correlation Constrained Physics Informed Neural Network for Seismic Tomography},
   author={Wang, Yonghao and Jia, Zhuo and Jiang, Bowu and Lu, Wenkai},
   journal={JGR: Machine Learning and Computation},
-  year={2024},
-  note={Submitted}
+  year={2026},
+  note={Accepted}
 }
 ```
 
