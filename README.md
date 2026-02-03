@@ -101,4 +101,5 @@ If you use this code or find it useful in your research, please cite our paper:
 
 ## License
 
-This project is open-source. Please refer to the license file for details.
+This project is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. This license allows for non-commercial use, adaptation, and sharing, provided that appropriate credit is given and any derivative works are shared under the same license.
+
