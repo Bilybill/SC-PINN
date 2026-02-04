@@ -33,18 +33,47 @@ SC-PINN/
 └── runSCPINN.sh        # Shell script to execute SC-PINN training
 ```
 
-## Requirements
+## Installation
 
-The project is implemented in Python. We recommend using a virtual environment (e.g., Conda) with the following dependencies:
+To reproduce the results, you need to set up the software environment, which involves installing Madagascar and configuring the Python dependencies.
 
+### 1. Madagascar Installation
+This project leverages **Madagascar** for seismic data processing and I/O (handling `.rsf` files). 
+*   **Download & Install**: Please follow the official guide to install Madagascar: [http://www.ahay.org/wiki/Installation](http://www.ahay.org/wiki/Installation).
+*   **Python API**: Ensure the Madagascar Python API (`m8r`) is accessible. Typically, this is handled by sourcing the Madagascar environment script. For example:
+    ```bash
+    source $RSFROOT/share/madagascar/etc/env.sh
+    export PYTHONPATH=$RSFROOT/lib:$PYTHONPATH
+    ```
+    Verify the installation by running `import m8r` in a Python shell.
+
+### 2. Python Environment
+We provide an `environment.yml` file to create a Conda environment with all necessary dependencies.
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/YourUsername/SC-PINN.git
+    cd SC-PINN
+    ```
+
+2.  **Create the environment**:
+    ```bash
+    conda env create -f environment.yml
+    ```
+
+3.  **Activate the environment**:
+    ```bash
+    conda activate scpinn
+    ```
+
+**Core Dependencies:**
 *   **Python** >= 3.8
-*   **PyTorch** >= 1.10 (with CUDA support)
-*   **NumPy**
-*   **Matplotlib** (for visualization)
-*   **TensorBoard** (for logging training progress)
-*   **Loguru** (for logging)
-*   **Pytorch-Warmup** (for learning rate scheduling)
-*   **Kornia** (for image filtering operations in structural loss)
+*   **PyTorch** >= 1.10
+*   **NumPy**, **Matplotlib**, **SciPy**
+*   **TensorBoard**
+*   **Loguru**
+*   **Pytorch-Warmup**
+*   **Kornia**
 
 ## Usage
 

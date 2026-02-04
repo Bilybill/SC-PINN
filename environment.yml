@@ -1,0 +1,18 @@
+name: scpinn
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pytorch>=1.10
+  - numpy
+  - matplotlib
+  - scipy
+  - tensorboard
+  - pillow
+  - pip
+  - pip:
+    - loguru
+    - pytorch-warmup
+    - kornia
