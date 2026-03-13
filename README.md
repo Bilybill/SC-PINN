@@ -121,12 +121,19 @@ These scripts will automatically:
 If you use this code or find it useful in your research, please cite our paper:
 
 ```bibtex
-@article{wang2026scpinn,
-  title={Space Correlation Constrained Physics Informed Neural Network for Seismic Tomography},
-  author={Wang, Yonghao and Jia, Zhuo and Jiang, Bowu and Lu, Wenkai},
-  journal={JGR: Machine Learning and Computation},
-  year={2026},
-  note={Accepted}
+@article{https://doi.org/10.1029/2025JH000855,
+author = {Wang, Yonghao and Jia, Zhuo and Jiang, Bowu and Lu, Wenkai},
+title = {Space Correlation Constrained Physics Informed Neural Network for Seismic Tomography},
+journal = {Journal of Geophysical Research: Machine Learning and Computation},
+volume = {3},
+number = {2},
+pages = {e2025JH000855},
+keywords = {physics-informed neural network, tomography, inverse problem, spatial correlation},
+doi = {https://doi.org/10.1029/2025JH000855},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JH000855},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JH000855},
+note = {e2025JH000855 2025JH000855},
+year = {2026}
 }
 ```
 
